@@ -1,0 +1,260 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  .font-serif {
+    font-family: 'Libre Baskerville', serif;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in-first {
+    animation: fadeIn 0.7s ease-out forwards;
+  }
+  
+  .animate-fade-in-delay-2s {
+    animation: fadeIn 0.7s ease-out 2s forwards;
+    opacity: 0;
+  }
+  
+  .animate-fade-in-delay-3s {
+    animation: fadeIn 0.7s ease-out 3s forwards;
+    opacity: 0;
+  }
+  
+  .animate-fade-in-delay-4s {
+    animation: fadeIn 0.7s ease-out 4s forwards;
+    opacity: 0;
+  }
+  
+  .animate-fade-in-delay-5s {
+    animation: fadeIn 0.7s ease-out 5s forwards;
+    opacity: 0;
+  }
+  
+  .animate-fade-in-delay-6s {
+    animation: fadeIn 0.7s ease-out 6s forwards;
+    opacity: 0;
+  }
+
+  .animate-mac-window-open {
+    animation: macWindowOpen 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes macWindowOpen {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes macWindowClose {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}
+
+@keyframes genieMinimize {
+  0% {
+    opacity: 1;
+    transform: scale(1) scaleY(1) translateY(0);
+    transform-origin: center bottom;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  25% {
+    opacity: 0.9;
+    transform: scale(0.95) scaleY(0.8) translateY(5%);
+    transform-origin: center bottom;
+    clip-path: polygon(5% 0%, 95% 0%, 98% 100%, 2% 100%);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(0.8) scaleY(0.5) translateY(15%);
+    transform-origin: center bottom;
+    clip-path: polygon(15% 0%, 85% 0%, 90% 100%, 10% 100%);
+  }
+  75% {
+    opacity: 0.4;
+    transform: scale(0.5) scaleY(0.2) translateY(35%);
+    transform-origin: center bottom;
+    clip-path: polygon(30% 0%, 70% 0%, 75% 100%, 25% 100%);
+  }
+  90% {
+    opacity: 0.2;
+    transform: scale(0.2) scaleY(0.05) translateY(60%);
+    transform-origin: center bottom;
+    clip-path: polygon(45% 0%, 55% 0%, 52% 100%, 48% 100%);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.05) scaleY(0.01) translateY(100%);
+    transform-origin: center bottom;
+    clip-path: polygon(49% 0%, 51% 0%, 50% 100%, 50% 100%);
+  }
+}
+
+@keyframes genieAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.05) scaleY(0.01) translateY(100%);
+    transform-origin: center bottom;
+    clip-path: polygon(49% 0%, 51% 0%, 50% 100%, 50% 100%);
+  }
+  10% {
+    opacity: 0.2;
+    transform: scale(0.2) scaleY(0.05) translateY(60%);
+    transform-origin: center bottom;
+    clip-path: polygon(45% 0%, 55% 0%, 52% 100%, 48% 100%);
+  }
+  25% {
+    opacity: 0.4;
+    transform: scale(0.5) scaleY(0.2) translateY(35%);
+    transform-origin: center bottom;
+    clip-path: polygon(30% 0%, 70% 0%, 75% 100%, 25% 100%);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(0.8) scaleY(0.5) translateY(15%);
+    transform-origin: center bottom;
+    clip-path: polygon(15% 0%, 85% 0%, 90% 100%, 10% 100%);
+  }
+  75% {
+    opacity: 0.9;
+    transform: scale(0.95) scaleY(0.8) translateY(5%);
+    transform-origin: center bottom;
+    clip-path: polygon(5% 0%, 95% 0%, 98% 100%, 2% 100%);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) scaleY(1) translateY(0);
+    transform-origin: center bottom;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+.animate-genie-appear {
+  animation: genieAppear 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.animate-genie-minimize {
+  animation: genieMinimize 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+/* Theme transition animations */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutToLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.theme-enter {
+  animation: slideInFromRight 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.theme-exit {
+  animation: slideOutToLeft 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+/* Custom Scrollbar Styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(196, 163, 115, 0.1);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #c4a373;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #8b6f47;
+}
+
+/* Firefox scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #c4a373 rgba(196, 163, 115, 0.1);
+}
+
+/* Custom Slider Styles */
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f4f0e6;
+  border: 2px solid #c4a373;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f4f0e6;
+  border: 2px solid #c4a373;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.slider::-moz-range-thumb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
