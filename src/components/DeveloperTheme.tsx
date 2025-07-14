@@ -99,7 +99,7 @@ const DeveloperTheme: React.FC<DeveloperThemeProps> = ({ onToggleMode }) => {
           newOutput.push('Recent Projects:', '1. F1 Website Redesign', '2. Jarvis.io Interface', '3. Vintage Portfolio', '4. ChatGPT Redesign');
           break;
         case 'contact':
-          newOutput.push('Contact Information:', 'Email: iamhashirhassan24@gmail.com', 'GitHub: github.com/hashir500', 'Instagram: @iamhashir_hassan');
+          newOutput.push('Contact Information:', 'Email: hashirhassan2424@gmail.com', 'GitHub: github.com/hashir500', 'Instagram: @iamhashir_hassan');
           break;
         case 'clear':
           setTerminalOutput(['$ _']);
@@ -361,8 +361,8 @@ const DeveloperTheme: React.FC<DeveloperThemeProps> = ({ onToggleMode }) => {
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Mail size={18} className="text-green-400" />
-                    <a href="mailto:iamhashirhassan24@gmail.com" className="text-gray-300 hover:text-green-400 transition-colors">
-                      iamhashirhassan24@gmail.com
+                    <a href="mailto:hashirhassan2424@gmail.com" className="text-gray-300 hover:text-green-400 transition-colors">
+                      hashirhassan2424@gmail.com
                     </a>
                   </div>
                   <div className="flex items-center gap-3">
@@ -475,7 +475,7 @@ const DeveloperTheme: React.FC<DeveloperThemeProps> = ({ onToggleMode }) => {
           <div className="p-4">
             <h3 className="text-green-400 text-sm font-semibold mb-3">Contact</h3>
             <div className="flex gap-4">
-              <a href="mailto:iamhashirhassan24@gmail.com" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 transition-colors">
+              <a href="mailto:hashirhassan2424@gmail.com" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 transition-colors">
                 <Mail size={20} />
               </a>
               <a href="https://www.instagram.com/iamhashir_hassan/" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 transition-colors">

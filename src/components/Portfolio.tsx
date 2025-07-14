@@ -381,7 +381,7 @@ const Portfolio = () => {
               </p>
               <div className="flex items-center gap-3">
                 <a
-                  href="mailto:iamhashirhassan24@gmail.com"
+                  href="mailto:hashirhassan2424@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors hover:opacity-70"
@@ -457,7 +457,7 @@ const Portfolio = () => {
              <button
   onClick={() =>
     window.open(
-      'https://mail.google.com/mail/?view=cm&fs=1&to=iamhashirhassan24@gmail.com',
+      'https://mail.google.com/mail/?view=cm&fs=1&to=hashirhassan2424@gmail.com',
       '_blank'
     )
   }
@@ -526,7 +526,7 @@ const Portfolio = () => {
               </p>
               <div className="flex gap-3">
                 <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=iamhashirhassan24@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=hashirhassan2424@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors hover:opacity-70"
@@ -761,7 +761,7 @@ const Portfolio = () => {
                 <button
                   onClick={() =>
                     window.open(
-                      'https://mail.google.com/mail/?view=cm&fs=1&to=iamhashirhassan24@gmail.com',
+                      'https://mail.google.com/mail/?view=cm&fs=1&to=hashirhassan2424@gmail.com',
                       '_blank'
                     )
                   }
@@ -862,7 +862,7 @@ const Portfolio = () => {
                  <button
   onClick={() =>
     window.open(
-      'https://mail.google.com/mail/?view=cm&fs=1&to=iamhashirhassan24@gmail.com',
+      'https://mail.google.com/mail/?view=cm&fs=1&to=hashirhassan2424@gmail.com',
       '_blank'
     )
   }
