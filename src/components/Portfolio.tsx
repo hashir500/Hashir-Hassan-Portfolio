@@ -174,11 +174,13 @@ const Portfolio = () => {
     id: 7,
     title: "Nothing Website Clone",
     description: "A pixel-perfect clone of Nothing's official website using React, no-code tools, and minimalist UI/UX design.",
+    image: "https://i.ibb.co/27PmftjW/Screenshot-2025-07-14-133049.png",
     tags: ["No Code", "React", "UI/UX", "Minimalist"],
     type: "nocode",
     link: "https://nothing-website-clone.vercel.app/"
   }
 ];
+
 
 
 
