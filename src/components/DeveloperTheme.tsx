@@ -69,8 +69,18 @@ const DeveloperTheme: React.FC<DeveloperThemeProps> = ({ onToggleMode }) => {
     tech: ["Wix", "No Code", "UI/UX", "Minimalist"],
     status: "deployed",
     url: "http://arborlinkapp.com"
+  },
+  {
+    id: 7,
+    name: "nothing-website-clone",
+    description: "Clone of Nothing's official website using React and minimalist design",
+    tech: ["No Code", "React", "UI/UX", "Minimalist"],
+    status: "deployed",
+    url: "https://nothing-website-clone.vercel.app/"
   }
 ];
+
+
 
 
   const skills = {

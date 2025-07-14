@@ -169,8 +169,17 @@ const Portfolio = () => {
     tags: ["No Code", "Wix", "UI/UX", "Minimalistic"],
     type: "nocode",
     link: "http://arborlinkapp.com"
+  },
+  {
+    id: 7,
+    title: "Nothing Website Clone",
+    description: "A pixel-perfect clone of Nothing's official website using React, no-code tools, and minimalist UI/UX design.",
+    tags: ["No Code", "React", "UI/UX", "Minimalist"],
+    type: "nocode",
+    link: "https://nothing-website-clone.vercel.app/"
   }
 ];
+
 
 
   const filteredProjects = projectFilter === 'all' 
