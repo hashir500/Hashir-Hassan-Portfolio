@@ -77,6 +77,14 @@ const DeveloperTheme: React.FC<DeveloperThemeProps> = ({ onToggleMode }) => {
     tech: ["No Code", "React", "UI/UX", "Minimalist"],
     status: "deployed",
     url: "https://nothing-website-clone.vercel.app/"
+  },
+  {
+    id: 8,
+    name: "finance-blogging-site",
+    description: "Responsive finance-focused blogging website built using modern web technologies",
+    tech: ["HTML", "CSS", "Astro", "React"],
+    status: "deployed",
+    url: "https://hashir-hassan-portfolio.vercel.app/"
   }
 ];
 

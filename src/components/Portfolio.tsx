@@ -115,7 +115,7 @@ const Portfolio = () => {
     }
   };
 
-  const projects = [
+ const projects = [
   {
     id: 1,
     title: "F1 Website Redesign with 3D Model",
@@ -178,8 +178,18 @@ const Portfolio = () => {
     tags: ["No Code", "React", "UI/UX", "Minimalist"],
     type: "nocode",
     link: "https://nothing-website-clone.vercel.app/"
+  },
+  {
+    id: 8,
+    title: "Finance Blogging Website",
+    description: "A sleek, content-driven blogging platform designed for financial topics, built using modern web technologies with a responsive layout.",
+    image: "https://i.ibb.co/zL4jrHk/image.png",
+    tags: ["HTML", "CSS", "Astro", "React"],
+    type: "code",
+    link: "https://hashir-hassan-portfolio.vercel.app/"
   }
 ];
+
 
 
 
