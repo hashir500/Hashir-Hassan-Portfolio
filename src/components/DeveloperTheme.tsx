@@ -84,7 +84,7 @@ const DeveloperTheme: React.FC<DeveloperThemeProps> = ({ onToggleMode }) => {
     description: "Responsive finance-focused blogging website built using modern web technologies",
     tech: ["HTML", "CSS", "Astro", "React"],
     status: "deployed",
-    url: "https://hashir-hassan-portfolio.vercel.app/"
+    url: "https://finance-blog-site-ebon.vercel.app/"
   }
 ];
 

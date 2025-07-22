@@ -186,7 +186,7 @@ const Portfolio = () => {
     image: "https://i.ibb.co/zL4jrHk/image.png",
     tags: ["HTML", "CSS", "Astro", "React"],
     type: "code",
-    link: "https://hashir-hassan-portfolio.vercel.app/"
+    link: "https://finance-blog-site-ebon.vercel.app/"
   }
 ];
 
